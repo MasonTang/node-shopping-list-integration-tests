@@ -1,2 +1,9 @@
-language: node_js 
+language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: SvBC0eF2UJH1fI6B3wB2E1C4x9gZzbqoDT6vyBu4Iwrc+/WpEOPkewUF+Wn4f+1AY6Xf6NnQbDBdgFd1n5G/Kk5gZKLzxS/b31lqBW80aLOevlS7e6kZahpBlBijtlhOYkJTfcp1jO+Dv9I2HdX3wLquK3ZbO9Q7/l+YhAGdJQvfLX3OSw0FFpBhE84FtuKfIBK/JRvSdts5FLgtNUJ+UqIMq7BmrPXLbc2onUk/s5hV60yFXwD+7uTAPSW9EX1n913r89b3DMPC/W3AdCDWkyqg7GwC/dWpFpZAEbtj6WMawUGtVsK7dAqvBgo1+inpGfy4/Q7jSSpx5JOyf0RbICoYrmXADVcCi+2sX3mlzrDwY1AMgKfycern/3aIFkBLgirjBBUgwdUEUWqiUupb/CpYD+pLYQRHhXec2Sgg6SwEjqu5FK1m/Pi5DHqhMJMMtltelJdK4sUgojuQIcsD8NdM9ZuVf5OxdHCFbXBpppoieOfWU1+QKNekjs0KoRvMo0XN6yPAzSaZddWIkRgS68eXSH+Fy0BtEny6XfXvrheIgpVpa71SYKKUAkaiyg+uQTVr5UI19jmWLvMmH2zcaZB/R5uJyqMdQGeDbc/ZlGCyR8kU3iKG039HLbIqws54st0CGohMra7T8FqwSUDUU9+OVGrB3Xi6/y2SkDkCr+U=
+  app: ⬢ hidden-peak-24170
+  on:
+    repo: MasonTang/node-shopping-list-integration-tests
